@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phone Repair</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/style.css"/>
+<script src="js/js.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<link rel="icon" href="images/logo.jpg">
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+</head>
+<body>
+<div class="loading">
+<img src="images/1.gif" />
+</div>
+<div class="mypage">
+<header>
+<div class="logo">
+<a href="#"><span>Fix</span><i class="fas fa-tools"></i></a>
+</div>
+<nav class="navbar">
+<ul>
+	<li><a class="active" href="#home">home</a></li>
+	<li><a href="#about">about</a></li>
+	<li><a href="#services">services</a></li>
+	<li><a href="#Technician">Technician </a></li>
+	<li><a href="#plan">plan </a></li>
+	<li><a href="#Client">Client </a></li>
+	<li><a href="#review">review</a></li>
+	<li><a href="#contact">contact</a></li>
+</ul>
+</nav>
+<a href="#" class="loginMin"><i class="fas fa-user-circle"></i></a>
+	<a class="sidemenu-toggler">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+		<div class="sidemenu">
+			<a class="close"></a>
+			<nav>
+				<ul>
+						<li><a class="active" href="#home">home</a></li>
+						<li><a href="#about">about</a></li>
+						<li><a href="#services">services</a></li>
+						<li><a href="#Technician">Technician </a></li>
+						<li><a href="#plan">Plan </a></li>
+						<li><a href="#Client">Client </a></li>
+						<li><a href="#review">review</a></li>
+						<li><a href="#contact">contact</a></li>
+				</ul>
+			</nav>
+			<a class="login1"><i class="fas fa-user-circle"></i><span>Login<span></a>
+			<a class="register1"><i class="far fa-registered"></i><span>register<span></a>
+			<a href="#contact" class="contactus"><i class="far fa-id-badge"></i><span>contact us<span></a>
+			<footer>
+				<div class="social">
+					<a href="" class="fab fa-facebook-f"></a>
+					<a href="" class="fab fa-instagram"></a>
+					<a href="" class="fab fa-twitter"></a>
+				</div>
+				<p>2020-2021, Made With love by Salaheddine oulad ben taib .</p>
+			</footer>
+		</div>
+</header>
+<div class="classchng">
+<span><i class="fas fa-palette"></i>
+<ul>
+	<li class="colors" id="var" data-color="#0984e3"></li>
+	<li class="colors" id="blue" data-color="#1B1464"></li>
+	<li class="colors" id="purple" data-color="#B53471"></li>
+	<li class="colors" id="orange" data-color="#ff9f1a"></li>
+	<li class="colors" id="green" data-color="#3ae374"></li>
+	<li class="colors" id="gray" data-color="#2f3640"></li>
+	<li class="colors" id="black" data-color="#008b8b"></li>
+	<li class="colors" id="col1" data-color="#82589F"></li>
+	<li class="colors" id="col2" data-color="#b33939"></li>
+	<li class="colors" id="col3" data-color="#cc8e35"></li>
+	<li class="colors" id="col4" data-color="#d63031"></li>
+	<li class="colors" id="col5" data-color="#67e6dc"></li>
+	<li class="colors" id="col6" data-color="#009432"></li>
+	<li class="colors" id="col7" data-color="#e84118"></li>
+	<li class="colors" id="col8" data-color="#FD7272"></li>
+	<li class="colors" id="col9" data-color="#D6A2E8"></li>
+	<li class="colors" id="col10" data-color="#F97F51"></li>
+</ul>
+</span>
+</div>
+<div class="return">
+	<a href="#home"><i class="fas fa-arrow-up"></i></a>
+</div>
+<div class="login">
+	<form autocomplete>
+		<h3>login now </h3>
+		<input autofocus type="email" placeholder="username" class="box" >
+		<input type="password" placeholder="password" class="box" >
+		<p>forget password ?<a id="forget" >click here</a></p>
+		<p>don't heve an acount ?<a id="registernow" >register now</a></p>
+		<a href="#"><input type="submit" value="login" class="btn"></a>
+		<i class="fas fa-times"></i>
+	</form>
+</div>
+<div id="register" class="register">
+	<form autocomplete>
+		<h3>register now </h3>
+		<input type="text" autofocus placeholder="full name" class="box" >
+		<input type="email" placeholder="email" class="box" >
+		<input type="password" placeholder="password" class="box" >
+		<input type="password" placeholder="confirmer password" class="box" >
+		<a href="#"><input type="submit" value="register" class="btn"></a>
+		<i class="fas fa-times"></i>
+	</form>
+</div>
+<div id="forget" class="forget">
+	<form autocomplete>
+		<h3>forgot password ?</h3>
+		<p>entrer your e-mail adress and we'll send you a link to reset your password .</p>
+		<input type="email" placeholder="your e-mail" class="box" >
+		<a href="#"><input type="submit" value="get password" class="btn"></a>
+		<i class="fas fa-times"></i>
+	</form>
+</div>
+<section class="home" id="home">
+<div class="owl-carousel owl-theme">
+    <div class="item">
+		<img src="images/img1.jpg">
+		<div class="content">
+			<h1>We Сan Fix Anything ...</h1>
+			<p>FixIt provides a wide variety of repair services for your gadgets and various devices.</p>
+			<a href="#"><button class="btn">let us help you</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/bj1.png">
+		<div class="content">
+			<h1>Finding solutions for your problems</h1>
+			<p>For us the repair work is not just about finding the fault and fixing it, it is about quality parts made to last long.</p>
+			<a href="#"><button class="btn">Get Started</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/bgb.jpg">
+			<div class="content">
+			<h1>All Problems We Can Fix</h1>
+			<p>From screen repair to battery replacement, our team of talented repair technicians our customers want us to fix.</p>
+			<a href="#"><button class="btn">take help</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/bg23.jpg">
+			<div class="content">
+			<h1>Do You Need Help?</h1>
+			<p>Repair & Fix is a team of our professional.</p>
+			<a href="#"><button class="btn">let us help you</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/pr-media-iuU2aZdzp_M-unsplash (1).jpg">
+			<div class="content">
+			<h1>Repair & Fix is a team of professional ....</h1>
+			<p>We are locally owned and operated with master level techs at each location.</p>
+			<a href="#"><button class="btn">help now</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/bg124.jpg">
+			<div class="content">
+			<h1>Do You Need a Phone Repair?</h1>
+			<p>We’re a 24/7, Cost Efficient Tech Repair Services for You!</p>
+			<a href="#"><button class="btn">get repair</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/bg2.jpg">
+			<div class="content">
+			<h1>We are always ready to help you.</h1>
+			<p>We love people and cell phones. So, you always get the best service and the best price.</p>
+			<a href="#"><button class="btn">get help</button></a>
+		</div>
+	</div>
+	<div class="item">
+		<img src="images/bg12.jpg">
+		<div class="content">
+			<h1>We Fix Everything!</h1>
+			<p>We can assure you that we have seen it all! From smartphones that have been run over by a car .</p>
+			<a href="#"><button class="btn">start now</button></a>
+		</div>
+	</div>
+</div>
+</section>
+<div class="Box-content">
+	<div class="box">
+		<i class="fas fa-mobile-alt"></i>
+		<h3>you call</h3>
+		<p>Emergency ? Tell us about which specific issues are you experiencin and we will resolve them within 7 business days.</p>
+	</div>
+	<div class="box">
+		<i class="fas fa-truck"></i>
+		<h3>we Visit</h3>
+		<p>We know how often it is inconvenient to bring  is inconvenient to your devices to us. That’s why we can visit your at your home or office.</p>
+	</div>
+	<div class="box">
+		<i class="fas fa-wrench"></i>
+		<h3>we fix</h3>
+		<p>We will get your device fixed, and in addition to that we provide a 90 day satisfaction 90-day satisfaction guarantee!.</p>
+	</div>
+	<div class="box">
+		<i class="far fa-smile"></i>
+		<h3>You're Happy!</h3>
+		<p>At the specified time you get your device back – all nice and fixed! Make sure to use it thenwards for your own pleasure.</p>
+	</div>
+
+</div>
+<section id="about" class="about">
+<h2 class="heading">about us</h2>
+<div class="box-cont">
+	<div class="image">
+		<img src="images/about.jpg">
+	</div>
+	<div class="content">
+		<h3>WELCOME to fix page ,</h3>
+		<h5>We Fix Everything!</h5>
+		<p>We can assure you that we have seen it all! From smartphones that have been run over by a car, to cellphones that have taken a dive in a pool, we are prepared to face anything that comes our way. Every IRepair technician goes through an intensive training process, and we maintain an environment of constant learning, so no device is too new, no technology too complicated.
+			We love people and cell phones. So, you always get the best service and the best price. We are locally owned and operated with master level techs at each location. From charging ports to glass only repairs to antennas and speakers, we repair the most.</p>
+			<a href="#contact"><button class="btn">Contact Us</button></a>
+	</div>
+</div>
+</section>
+<section id="services" class="services">
+<h2 class="heading">our service</h2>
+<div class="box-conteneair">
+	<div class="box">
+		<i class="fas fa-desktop"></i>
+		<h3>Computer Repair</h3>
+		<p>Computer not powering on? Sometimes, if this occurs, the issue is with the main board of your computer.</p>
+		<a class="repairen"><button class="btn">Repair now</button></a>
+	</div>
+	<div class="box">
+		<i class="fas fa-tablet-alt"></i>
+		<h3>Tablet Repair</h3>
+		<p>We aim to take the hassle out of tablet repairs, and soften the blow of having a damaged or defective tablet.</p>
+		<a class="repairen"><button class="btn">Repair now</button></a>
+	</div>
+		<div class="box">
+		<i class="fas fa-mobile-alt"></i>
+		<h3>phone Repair</h3>
+		<p>We fix all smartphone models, make a diagnostic and replace all non-working parts at record terms.</p>
+		<a class="repairen"><button class="btn">Repair now</button></a>
+	</div>
+	<div class="box">
+		<i class="fas fa-laptop"></i>
+		<h3>Laptop Repair</h3>
+		<p>Drop your laptop? On all laptops that have been physically damaged, the screen is one of the most fragile components.</p>
+		<a class="repairen"><button class="btn">Repair now</button></a>
+	</div>
+	<div class="box">
+		<i class="fas fa-gamepad"></i>
+		<h3>Game Console Repair</h3>
+		<p>FixIt provides reliable and reasonably priced game console repair services.</p>
+		<a class="repairen"><button class="btn">Repair now</button></a>
+	</div>
+	<div class="box">
+		<i class="fas fa-charging-station"></i>
+		<h3>Electronics Repair</h3>
+		<p> We also specialize in a variety of electronic gadgets. We challenge to fix any electronic device.</p>
+		<a class="repairen"><button class="btn">Repair now</button></a>
+	</div>
+</div>
+</section>
+
+<div class="Reparinow">
+<form autocomplete>
+		<h3>Contact us now to visit you and give you some help </h3>
+		<input type="text" autofocus placeholder="your full name" class="box" >
+		<input type="email" placeholder="your email" class="box" >
+		<input type="tel" placeholder="your Phone number" class="box" >
+		<a href=""><input type="submit" value="send" class="btn"></a>
+		<i class="fas fa-times"></i>
+	</form>
+</div>
+
+<section id="Technician" class="Technician">
+<h2 class="heading">our Technicians</h2>
+	<div class="box-containr">
+		<div class="box">
+			<img src="images/Tecs4.jpg">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>Adam Collins</h3>
+				<p>Data Recovery Technician</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="images/Tecs3.jpg">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>Daniel Smith</h3>
+				<p>PC & Laptop Repair Technician</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="images/Tecs2.jpeg">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>Charles Owens</h3>
+				<p>Network Setup Expert</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="images/tecs2.jpg">
+			<div class="social">
+			<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>Erin Jackson</h3>
+				<p>MANAGER</p>
+			</div>
+			
+		</div>
+		<div class="box">
+			<img src="images/img41.jpg">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>lex PARKER</h3>
+				<p>FOUNDER</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="images/img3.png">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>petter WILSON</h3>
+				<p>CO-FOUNDER</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="images/bgb1.jpg">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>BRUCE BANNER</h3>
+				<p>FOUNDER</p>
+			</div>
+		</div>
+		<div class="box">
+			<img src="images/img12.jpg">
+			<div class="social">
+				<li><i class="fab fa-facebook-f"></i></li>
+				<li><i class="fab fa-instagram"></i></li>
+				<li><i class="fab fa-pinterest"></i></li>
+				<li><i class="fab fa-twitter"></i></li>
+				
+			</div>
+			<div class="info">
+				<h3>Jack Aler</h3>
+				<p>co-FOUNDER</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="plan" class="plan">
+<h2 class="heading">our Price plans</h2>
+	<div class="box-contenrr">
+		<div class="box">
+			<h3>Basic</h3>
+			<div class="price"><h4>$19<span>.99/hour .</span></h4></div>
+			<ul class="list">
+			<li><i class="fas fa-check"></i>Screen Repair/Replacement</li>
+			<li><i class="fas fa-check"></i>Battery Replacement</li>
+			<li><i class="fas fa-times"></i>Antivirus Installation</li>
+			<li><i class="fas fa-times"></i>Mobile Unlocking</li>
+			<li><i class="fas fa-times"></i>Data Recovery</li>
+			<li><i class="fas fa-times"></i>Laptop Servicing</li>
+		</ul>
+		<a class="choose"><button class="btn">Choose Plan</button></a>
+		</div>
+		<div class="box">
+			<h3>Advacned</h3>
+			<div class="price"><h4>$69<span>.99/hour .</span></h4></div>
+			<ul class="list">
+			<li><i class="fas fa-check"></i>Screen Repair/Replacement</li>
+			<li><i class="fas fa-check"></i>Battery Replacement</li>
+			<li><i class="fas fa-check"></i>OS Installation</li>
+			<li><i class="fas fa-times"></i>Antivirus Installation</li>
+			<li><i class="fas fa-times"></i>Mobile Unlocking</li>
+			<li><i class="fas fa-times"></i>Data Recovery</li>
+			<li><i class="fas fa-times"></i>Laptop Servicing</li>
+		</ul>
+		<a class="choose"><button class="btn">Choose Plan</button></a>
+		</div>
+		<div class="box">
+			<h3>Premium</h3>
+			<div class="price"><h4>$99<span>.99/hour .</span></h4></div>
+			<ul class="list">
+			<li><i class="fas fa-check"></i>Screen Repair/Replacement</li>
+			<li><i class="fas fa-check"></i>Battery Replacement</li>
+			<li><i class="fas fa-check"></i>Speaker Repair</li>
+			<li><i class="fas fa-check"></i>Antivirus Installation</li>
+			<li><i class="fas fa-check"></i>Mobile Unlocking</li>
+			<li><i class="fas fa-times"></i>Laptop Servicing</li>
+			</ul>
+			<a class="choose"><button class="btn">Choose Plan</button></a>
+		</div>
+		<div class="box">
+			<h3>STANDARD</h3>
+			<div class="price"><h4>$199<span>.99/hour .</span></h4></div>
+			<ul class="list">
+			<li><i class="fas fa-check"></i>Diagnostic Service</li>
+			<li><i class="fas fa-check"></i>OS Installation</li>
+			<li><i class="fas fa-check"></i>Antivirus Installation</li>
+			<li><i class="fas fa-check"></i>Mobile Unlocking</li>
+			<li><i class="fas fa-check"></i>Data Recovery</li>
+			<li><i class="fas fa-times"></i>Laptop Servicing</li>
+			</ul>
+			<a class="choose"><button class="btn">Choose Plan</button></a>
+		</div>
+			<div class="box">
+			<h3>PROFESSIONAL</h3>
+			<div class="price"><h4>$999<span>.99/hour .</span></h4></div>
+			<ul class="list">
+			<li><i class="fas fa-check"></i>Diagnostic Service</li>
+			<li><i class="fas fa-check"></i>OS Installation</li>
+			<li><i class="fas fa-check"></i>Antivirus Installation</li>
+			<li><i class="fas fa-check"></i>Mobile Unlocking</li>
+			<li><i class="fas fa-check"></i>Data Recovery</li>
+			<li><i class="fas fa-check"></i>Laptop Servicing</li>
+			</ul>
+			<a class="choose"><button class="btn">Choose Plan</button></a>
+		</div>
+	</div>
+</section>
+<div class="Cgoose">
+	<form>
+		<h1>Request a Callback</h1>
+		<p>We can call you in 30 seconds, just enter Name and your number below .</p>
+		<input type="text" class="box" placeholder="your name">
+		<input type="number" placeholder="your number" class="box">
+		<a href="#"><button class="btn">Choose Plan</button></a>
+		<i class="fas fa-times"></i>
+	</form>
+</div>
+<section id="Client" class="Client">
+<h2 class="heading">Client says</h2>
+	<div class="Box-Console">
+		<div class="box">
+			<div class="image">
+				<img src="images/img2.jpeg" />
+			</div>
+			<div class="content">
+				<h3>Dana Sherman</h3>
+				<span>jan 5,2021</span>
+				<p>When my desktop was hit by a ransomware and I lost access to all of my business documents on HDD, I was desperate! Thank God these guys knew what to do yeh!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+	<div class="box">
+			<div class="image">
+				<img src="images/profile-4.jpeg" />
+			</div>
+			<div class="content">
+				<h3>BRUCE BANNER</h3>
+				<span>jun5,2021</span>
+				<p>Losing a lot of important data that I had on my laptop’s HDD was devastating, when these bunch of tech magicians retrieved it all for me in mere 24 hours!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="image">
+				<img src="images/profile-2.jpeg" />
+			</div>
+			<div class="content">
+				<h3>LEX LUTHOR</h3>
+				<span>jull 5,2021</span>
+				<p>These incredible tech people helped our company big time when we were moving all of our 450 employees (and their PCs)! They were timely and so cost-efficient!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="image">
+				<img src="images/img6.jpeg" />
+			</div>
+			<div class="content">
+				<h3>PETER PARKER</h3>
+				<span>Feb 8,2020</span>
+				<p>When my desktop was hit by a ransomware and I lost access to all of my business documents on HDD, I was desperate! Thank God these guys knew what to do yeh!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="image">
+				<img src="images/profile-3.jpeg" />
+			</div>
+			<div class="content">
+				<h3>WANDA WILSON</h3>
+				<span>mai 8,2018</span>
+				<p>Losing a lot of important data that I had on my laptop’s HDD was devastating, when these bunch of tech magicians retrieved it all for me in mere 24 hours!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="box">
+			<div class="image">
+				<img src="images/img1.jpeg" />
+			</div>
+			<div class="content">
+				<h3>WILSON Sam</h3>
+				<span>jan 6,2013</span>
+				<p>These incredible tech people helped our company big time when we were moving all of our 450 employees (and their PCs)! They were timely and so cost-efficient!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="box">
+			<div class="image">
+				<img src="images/2.jpg" />
+			</div>
+			<div class="content">
+				<h3>Sam Jackson</h3>
+				<span>aprl 12,2021</span>
+				<p>When my desktop was hit by a ransomware and I lost access to all of my business documents on HDD, I was desperate! Thank God these guys knew what to do yeah!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="image">
+				<img src="images/1205.jpg" />
+			</div>
+			<div class="content">
+				<h3>Jan Jackson</h3>
+				<span>sept 1,2022</span>
+				<p>Losing a lot of important data that I had on my laptop’s HDD was devastating, when these bunch of tech magicians retrieved it all for me in mere 24 hours!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="box">
+			<div class="image">
+				<img src="images/1200.jpg" />
+			</div>
+			<div class="content">
+				<h3>Lasire Amilia</h3>
+				<span>Mas 7,2015</span>
+				<p>These incredible tech people helped our company big time when we were moving all of our 450 employees (and their PCs)! They were timely and so cost-efficient!</p>
+			</div>
+			<div class="icons">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half"></i>
+			</div>
+			<div class="social">
+				<ul>
+					<li><a class="fab fa-facebook-f"></a></li>
+					<li><a class="fab fa-twitter"></a></li>
+					<li><a class="fab fa-instagram"></a></li>
+					<li><a class="fab fa-linkedin-in"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="review" class="review">
+<h2 class="heading">our reviews</h2>
+<h3 class="pricee">You Ask - We Answer</h3>
+	<div class="row">
+		<div class="images">
+			<img src="images/blog-img3.jpg">
+		</div>
+		<div class="accroding-constarint">
+			<div class="accordion">
+				<div class="accrodion-header">
+					<span>-</span>
+					<h3>Can the Mac & PC Doctors upgrade my computer?</h3>
+				</div>
+				<div class="accrodion-body">
+					<p>Apple Inc. does not manufacture any parts. They are only a design and engineering company. 
+					The parts Apple uses in the iPhone are bought from Chinese vendors and assembled in China. 
+					Many of the parts we use come from similar vendors in China. So though we cannot claim that our parts are "from Apple".</p>
+				</div>
+			</div>
+			<div class="accordion">
+				<div class="accrodion-header">
+					<span>+</span>
+					<h3>Does my Apple warranty cover its problems?</h3>
+				</div>
+				<div class="accrodion-body">
+					<p>Our water damage repair service includes a 90-day warranty so if you experience any water-related issues caused by the initial water damaged within 90-days,
+					you are covered. All repairs carry 90-day parts and labor warranty which means if you have any issues related to the repair within 90 days we will take care of 
+					it free of charge!</p>
+				</div>
+			</div>
+			<div class="accordion">
+				<div class="accrodion-header">
+					<span>+</span>
+					<h3>How long will my repair take?</h3>
+				</div>
+				<div class="accrodion-body">
+					<p>Almost all repairs can be completed while you wait in 30 minutes or less by one of our experienced technicians.
+					The only repair that cannot be completed while you wait is the water damaged repair service. Water damaged devices 
+					generally need to be dropped off for at least 24-48 hours.</p>
+				</div>
+			</div>
+			<div class="accordion">
+				<div class="accrodion-header">
+					<span>+</span>
+					<h3>How does your warranty plan work?</h3>
+				</div>
+				<div class="accrodion-body">
+					<p>We offer a 90 day warranty for all Apple products, and a 30 day warranty for Samsung phones. Our warranty covers our parts and workmanship.
+					If the repaired or replaced parts stop working properly, bring it back and we will redo the repair at no cost to you.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="contact" class="contact">
+<h2 class="heading">contact us</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6950504.828175644!2d-11.66028888502166!3d31.72132548724442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b88619651c58d%3A0xd9d39381c42cffc3!2sMaroc!5e0!3m2!1sfr!2sma!4v1614708064821!5m2!1sfr!2sma" width="100%" height="500" style="border:0; margin-top:3rem;" allowfullscreen="" loading="lazy"></iframe>
+	<div class="row">
+		<div class="contact-info">
+		<div class="box">
+			<h1><i class="fas fa-home"></i>address</h1>
+			<p>Tanger<br>
+			Mabrouka, Rue 07<br>
+			Residance Salam ,N°: 14<br>
+			90996.<br>
+			</p>
+			</div>
+			<div class="box">
+			<h1><i class="fas fa-envelope"></i>e-mail</h1>
+			<p>sdine6480@gmail.com
+			</p>
+			</div>
+			<div class="box">
+				<h1><i class="fas fa-phone"></i>phone</h1>
+			<p>+212696177562
+			</p>
+		</div>
+	</div>
+	<div class="contact-form">
+		<form>
+			<h3>we love conversation !</h3>
+			<div class="inputBox">
+				<input type="text" placeholder="enter your full name">
+				<input type="email" placeholder="enter your email">
+			</div>
+			<textarea cols="30" rows="10" placeholder="message"></textarea>
+			<input type="submit" class="btn" value="envoyer">
+		</form>
+	</div>
+	</div>
+</section>
+<footer>
+	<div class="logo">
+		<a href="#"><span>Fix</span><i class="fas fa-tools"></i></a>
+	</div>
+	<div class="row">
+		<div class="box">
+			<h3>why choose us ?</h3>
+			<ul>
+				<li><h4> <i class="far fa-star"></i><span>Quality Guarantee</span></h4></li>
+				<li><h4><i class="fas fa-user-check"></i><span>Customer Support</span></h4></li>
+				<li><h4><i class="fas fa-shopping-basket"></i><span>Low Price Quarantee</span></h4></li>
+				<li><h4><i class="fas fa-clock"></i><span>short time to repair</span></h4></li>
+			</ul>
+		</div>
+		<div class="box">
+			<h3>quick links</h3>
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#Technician">Technician </a></li>
+					<li><a href="#plan">Plan </a></li>
+					<li><a href="#Client">Client </a></li>
+					<li><a href="#review">review</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+		</div>
+		<div class="box">
+			<h3>OPENING HOURS:</h3>
+			<div class="box-cont">
+				<div class="jour">
+				<li>MONDAY</li>
+				<li>TUESDAY</li>
+				<li>WEDNESDAY</li>
+				<li>THURSDAY</li>
+				<li>FRIDAY</li>
+				<li>SATURDAY</li>
+				<li>SUNDAY</li>
+			</div>
+			<div class="hour">
+				<li>8:00 - 20:00</li>
+				<li>8:00 - 20:00</li>
+				<li>8:00 - 20:00</li>
+				<li>8:00 - 20:00</li>
+				<li>8:00 - 20:00</li>
+				<li>8:00 - 20:00</li>
+				<li>CLOSED</li>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="icons">
+			<a href="#" class="fab fa-facebook-f"></a>
+			<a href="#" class="fab fa-twitter"></a>
+			<a href="#" class="fab fa-youtube"></a>
+			<a href="#" class="fab fa-instagram"></a>
+			<a href="#" class="fab fa-pinterest"></a>
+	</div>
+	<h1 class="credit">&#169; Create By <a href="#">salaheddine oulad ben taib</a> | &#10087; made width love &#10084; | &#174; all right reserved . &#10083;</h1>
+
+
+</footer>
+
+
+
+</div>
+<script>
+$('.Box-Console').slick({
+	  slidesToShow: 3,
+	  slidesToScroll: 1,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+	  dots: false,
+	  lazyLoad: 'ondemand',
+	  nav:false,
+	  centerMode: false,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 3,
+	  adaptiveHeight: true,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2,
+			infinite: true,
+			dots: true
+		  }
+		},
+		{
+		  breakpoint: 770,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		},
+		{
+		  breakpoint: 600,
+		  settings: {
+			slidesToShow: 2,
+			slidesToScroll: 2
+		  }
+		},
+		{
+		  breakpoint: 570,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		},
+		{
+		  breakpoint: 300,
+		  settings: {
+			slidesToShow: 1,
+			slidesToScroll: 1
+		  }
+		}
+	  ]
+	});
+</script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+<script src="js/js.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+</body>
+</html>
